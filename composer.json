@@ -1,0 +1,22 @@
+{
+    "name": "usama/gallery-pack",
+    "description": "gallery package",
+    "type": "MIT",
+    "license": "free",
+    "authors": [
+        {
+            "name": "usama ahmed",
+            "email": "uusa35@gmail.com"
+        }
+    ],
+    "autoload" : {
+        "psr-4" : {
+            "Usama\\Gallerypack\\" : "src/"
+        }
+    },
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=5.4.0",
+        "illuminate/support" : "~5.0"
+    }
+}
